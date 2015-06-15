@@ -1,0 +1,171 @@
+plugins/awe/templates/feeds/atom.php:17:
+plugins/awe/templates/feeds/rdf.php:22:
+plugins/awe/templates/feeds/rss2.php:25:
+plugins/rss-pages/rss-pages.php:27:
+plugins/rss-pages/rss-pages.php:77:        <lastBuildDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></lastBuildDate>
+plugins/rss-pages/rss-pages.php:121:        <updated><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT')); ?></updated>
+plugins/another-simple-xml-sitemap/another-simple-xml-sitemap.php:56:
+plugins/create-facebook-fan-page-custom-tabs/fbfeed-rss2.php:28:
+plugins/disqus-conditional-load/js-export.php:152:    <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/lti-sitemap/src/generators/sitemap.php:117:
+plugins/lti-sitemap/src/generators/sitemap.php:151:
+plugins/exchange-platform/includes/EPItemData.php:288:
+plugins/wp-autoloader/lib/WPExtend/BasicWPFilters.php:398:        'get_lastpostmodified' => 'OnFilterGetLastpostmodified',
+plugins/cairn/views/feeds/post/atom.php:18:
+plugins/cairn/views/feeds/post/rss2.php:25:
+plugins/cairn/views/feeds/portfolio/atom.php:18:
+plugins/cairn/views/feeds/portfolio/rss2.php:25:
+plugins/cairn/views/feeds/fineart/atom.php:18:
+plugins/cairn/views/feeds/fineart/rss2.php:25:
+plugins/enhanced-publication/epub_repository.php:250:            'dcterms:created' => mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false),
+plugins/enhanced-publication/epub_repository.php:251:            'dcterms:modified' => mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false),
+plugins/powerpress/feed-podcast.php:44:
+plugins/sitemap-generator-for-webmasters/sitemap-core.php:1259:
+plugins/squirrly-seo/models/SQ_Frontend.php:882:            $date = date('Y-m-d', strtotime(get_lastpostmodified('gmt')));
+plugins/squirrly-seo/controllers/SQ_Sitemaps.php:194:                        echo "\t" . '<lastmod>' . mysql2date('Y-m-d\TH:i:s+00:00', get_lastpostmodified('gmt'), false) . '</lastmod>' . "\n";
+plugins/sourcedfrom/server/sf_api_server.php:498:
+plugins/sourcedfrom/server/sf_api_server.php:731:
+plugins/event-list/includes/feed.php:62:
+plugins/social-traffic-commando/oo/external/nxs_functions.php:575:    <title><?php bloginfo_rss('name'); ?></title><link><?php bloginfo_rss('url') ?></link><pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/easy-audio/displayArchive.php:60:        <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/lh-rdf/templates/concept-scheme.php:6:<dc:date><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></dc:date>
+plugins/lh-rdf/templates/type-page.php:15:<dc:date><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></dc:date>
+plugins/lh-rdf/templates/type-post.php:19:<dc:date><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></dc:date>
+plugins/lh-rdf/feed-lhrdf.php:182:<dcterms:modified><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></dcterms:modified>
+plugins/wordpress-wiki/views/feed.php:16:
+plugins/sitetree/core/sitetree-xml-factory.class.php:173:
+plugins/gwolle-gb/frontend/rss.php:31:
+plugins/google-sitemap-generator/sitemap-builder.php:289:
+plugins/google-sitemap-generator/sitemap-builder.php:464:
+plugins/josie-api/vendor/shelob9/jp-tax-query/class-jp-tax-query.php:93:
+plugins/google-xml-sitemaps-with-qtranslate-support/sitemap-core.php:1773:
+plugins/google-xml-sitemaps-with-qtranslate-support/sitemap-core.php:1779:
+plugins/happy-gig-calendar/wordpress_happy_gig_calendar_feed.php:56:
+plugins/redirection/fileio/rss.php:16:
+plugins/ft-calendar/includes/feed-rdf.php:33:
+plugins/ft-calendar/includes/feed-atom.php:30:
+plugins/ft-calendar/includes/feed-rss.php:25:
+plugins/ft-calendar/includes/feed-rss2.php:36:
+plugins/contus-video-gallery/videogalleryrss.php:71:
+plugins/feed-seo/feed.php:22:
+plugins/tweet-collection/rss.php:35:    <lastBuildDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></lastBuildDate>
+plugins/wp-document-revisions/includes/revision-feed.php:30:
+plugins/blog-topics/cets_blog_topics_sampletheme/topicfeed.php:26:
+plugins/make-pdf-newspaper/rss-make-pdf-newspaper.php:155:
+plugins/spam-words/For-WordPress-1.2/functions.php:121:function get_lastpostmodified($timezone = 'server') {
+plugins/hypercomments/export.php:144:    <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/rssjs/feed-rssjs.php:20:$json->rss->channel->lastBuildDate = mysql2date( 'D, d M Y H:i:s +0000', get_lastpostmodified( 'GMT' ), false );
+plugins/seo-wordpress/seo-sitemaps.php:245:
+plugins/atom-publishing-protocol/class-wp-atom-server.php:984:<updated><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></updated>
+plugins/atom-publishing-protocol/class-wp-atom-server.php:1413:
+plugins/oai-ore/rem.php:78:  <updated><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT')); ?></updated>
+plugins/oai-ore/rem.php:90:  <category term="<?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT')); ?>" scheme="http://www.openarchives.org/ore/atom/modified"/>
+plugins/google-news-sitemap-feed-with-multisite-support/hacks.php:13: * Adaptation of get_lastpostmodified defined in wp-includes/post.php since 1.2.0
+plugins/google-news-sitemap-feed-with-multisite-support/hacks.php:106: * Reverse of get_lastpostmodified defined in wp-includes/post.php since WP 1.2.0
+plugins/google-news-sitemap-feed-with-multisite-support/hacks.php:310: * Combination of get_lastpostmodified and get_lastpagemodified
+plugins/google-news-sitemap-feed-with-multisite-support/hacks.php:318:
+plugins/custom-contact-forms/vendor/wp-api/wp-api/lib/class-wp-json-posts.php:177:
+plugins/rss-includes-pages/rss-includes-pages.php:28:add_filter('get_lastpostmodified', 'ma_get_lastpostmodified',10,2);
+plugins/rss-includes-pages/rss-includes-pages.php:30:// We do this because is_feed is not set when calling get_lastpostmodified.
+plugins/rss-includes-pages/rss-includes-pages.php:38:function ma_get_lastpostmodified($lastpostmodified, $timezone){
+plugins/chennai-central/bandwidth-saver.php:105:
+plugins/google-xml-sitemap/google-xml-sitemap.php:47:  $xml .= "\t\t<lastmod>" . mysql2date( 'Y-m-d\TH:i:s+00:00', get_lastpostmodified( 'GMT' ), false ) . "</lastmod>\n";
+plugins/worona/json-rest-api/lib/class-wp-json-posts.php:177:
+plugins/feed-globedia/feed-rss2.php:27:
+plugins/podlove-podcasting-plugin-for-wordpress/templates/feed-rss2.php:21:
+plugins/memberful-wp/views/private_user_feed_content.php:34:
+plugins/feed-random/feed-random-template.php:26:
+plugins/rss-feed-modify-on-your-choice/feedfile/feed-rdf.php:25:
+plugins/rss-feed-modify-on-your-choice/feedfile/feed-atom.php:22:
+plugins/rss-feed-modify-on-your-choice/feedfile/feed-rss.php:17:
+plugins/rss-feed-modify-on-your-choice/feedfile/feed-rss2.php:28:
+plugins/email-feed/email-feed.php:172:
+plugins/mf-gig-calendar/mf_gig_calendar_feed.php:56:
+plugins/eventissimo/apievent/get.php:41:
+plugins/google-news-editors-picks-news-feeds/includes/bgnp-sec-feed.php:36:
+plugins/google-news-editors-picks-news-feeds/includes/bgnp-rss-feed.php:36:
+plugins/app-generator/appmaker.php:63:
+plugins/comic-easel/functions/filters.php:15:// add_filter('get_lastpostmodified', 'ceo_lastpostmodified');
+plugins/rrze-sitemap/rrze-sitemap.php:832:                $last_mod = get_lastpostmodified( 'GMT' );
+plugins/disqus-comment-system/export.php:151:    <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/make-tabbloid/rss-tabbloid.php:114:
+plugins/oni-daiko/oni_daiko_feed.php:22:
+plugins/wp-folksonomy/wp_folksonomy.php:229:
+plugins/wp-simple-related-posts/lib/wp-rest-api.php:33:
+plugins/wordpress-seo/inc/class-sitemaps.php:712:
+plugins/media-tags/mediatags_rss.php:22:
+plugins/b2-xml-sitemap-generator/includes/b2xml_builder.php:551:
+plugins/social-networks-auto-poster-facebook-twitter-g/nxs_functions.php:620:    <title><?php bloginfo_rss('name'); ?></title><link><?php bloginfo_rss('url') ?></link><pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/easy-sermon/displayArchive.php:60:        <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/lh-posse/feed-lh-posse-tw.php:19:<lastBuildDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></lastBuildDate>
+plugins/lh-posse/feed-lh-posse-fb.php:20:<lastBuildDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></lastBuildDate>
+plugins/lh-posse/feed-lh-posse-attach.php:17:<lastBuildDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></lastBuildDate>
+plugins/presstest/mocked/core.php:3649:if( !function_exists( 'get_lastpostmodified' ) ) { function get_lastpostmodified($timezone = '') { return PT_Mime::mime( func_get_args() );  } }
+plugins/issuem/feed-templates/feed-rdf.php:40:
+plugins/issuem/feed-templates/feed-atom.php:37:
+plugins/issuem/feed-templates/feed-rss.php:32:
+plugins/issuem/feed-templates/feed-rss2.php:43:
+plugins/delete-city/feed.php:28:
+plugins/dicentis-podcast/includes/view/templates/feed-itunes-template.php:33:
+plugins/shareaholic/notifier.php:66:        'updated' => get_lastpostmodified('GMT'),
+plugins/shareaholic/public.php:185:      $article_modified_time = strtotime(get_lastpostmodified('GMT'));
+plugins/shareaholic/public.php:744:        'post_updated' => date('c', strtotime(get_lastpostmodified('GMT'))),
+plugins/geopress/wp-kml.php:77:    <Snippet><![CDATA[<?php bloginfo_rss('url') ?><br/><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?>]]></Snippet>
+plugins/miln-photo-feed/miln-photo-feed-template.php:20:
+plugins/google-xml-sitemaps-v3-for-qtranslate/sitemap-core.php:1692:
+plugins/google-xml-sitemaps-v3-for-qtranslate/sitemap-core.php:1693:
+plugins/atomic-reach-audience-engager/ar_analyzer.php:703:
+plugins/feed-tweetifier/feed-tweetifier.php:137:
+plugins/ep-tools-eros-pedrini-tools-atom-fix/ep_tools_feed-atom.php:27:
+plugins/json-data-feed/JSONFeed.inc.php:125:
+plugins/feedback/rss2.php:19:
+plugins/camptix-events-calendar/templates/feed-attendees.php:43:
+plugins/image-store/_inc/image-rss.php:132:        <lastBuildDate><?php echo mysql2date( 'D,d M Y H:i:s +0000', get_lastpostmodified( 'GMT' ), false ); ?></lastBuildDate>
+plugins/wordpress-wiki-pt-br/wordpress-wiki.php:404:
+plugins/wordpress-wiki-pt-br/0.6/wordpress-wiki.php:404:
+plugins/onswipe-feeds/feed-template.php:28:
+plugins/related-posts-line-up-exactry-by-milliard/includes/feed-rss2.php:18:
+plugins/rss-with-images/feeds/mailchimp-feed-rss2.php:46:
+plugins/rss-with-images/feeds/mailchimp-feed-rss2-v1.0.php:36:
+plugins/news2paper/n2p-exchange.php:24:
+plugins/cackle/export.php:83:        <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/mdr-webmaster-tools/templates/feed-sitemap.php:17:                <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></lastmod>
+plugins/wp-seo-yoast-integration-mq-translate/inc/class-sitemaps-mqtranslate-integr.php:653:
+plugins/json-rest-api/lib/class-wp-json-posts.php:177:
+plugins/reactor-core/json-rest-api/lib/class-wp-json-posts.php:177:
+plugins/network-summary/templates/feed-rss2-network.php:63:
+plugins/sexybookmarks/notifier.php:66:        'updated' => get_lastpostmodified('GMT'),
+plugins/sexybookmarks/public.php:185:      $article_modified_time = strtotime(get_lastpostmodified('GMT'));
+plugins/sexybookmarks/public.php:744:        'post_updated' => date('c', strtotime(get_lastpostmodified('GMT'))),
+plugins/advanced-export-for-wp-wpmu/ra-export.php:162:
+plugins/cforms2/lib_aux.php:583:
+plugins/foragr-activity-stream/export.php:220:
+plugins/google-sitemap-xml/sitemap-builder.php:289:
+plugins/google-sitemap-xml/sitemap-builder.php:464:
+plugins/seriously-simple-podcasting/templates/feed-podcast.php:230:
+plugins/thermal-api/api/v1/controllers/Posts.php:27:
+plugins/thermal-api/api/v1/API.php:57:
+plugins/404-notifier/404-notifier.php:222:
+plugins/bookmarkpress/class-BookmarkFeed.php:35:
+plugins/android-appmaker/appmaker.php:325:
+plugins/android-appmaker/appmaker.php:370:
+plugins/android-appmaker/appmaker.php:408:
+plugins/android-appmaker/appmaker.php:466:
+plugins/android-appmaker/appmaker.php:517:
+plugins/standard-xml-sitemap/wp-includes/feed-sitemap.php:19:
+plugins/multisite-feed/feed_template/feed-rdf.php:25:
+plugins/multisite-feed/feed_template/feed-atom.php:22:
+plugins/multisite-feed/feed_template/feed-rss.php:17:
+plugins/multisite-feed/feed_template/feed-rss2.php:28:
+plugins/ninja-galleries/trunk/wpnj-media-tags/mediatags_rss.php:28:
+plugins/ninja-galleries/wpnj-media-tags/mediatags_rss.php:28:
+plugins/wp-multisite-feed/inc/plugin.php:295:
+plugins/comments-with-hypercommentscom/export.php:144:    <pubDate><?php echo mysql2date('D, d M Y H:i:s +0000', get_lastpostmodified('GMT'), false); ?></pubDate>
+plugins/simple-ga-ranking/lib/wp-rest-api.class.php:46:
+plugins/field-trip/feed-fieldtrip.php:14:
+plugins/field-trip/feed-fieldtrip.php:15:
+plugins/readers-from-rss-2-blog/readers-from-rss-2-blog.php:73:
+plugins/readers-from-rss-2-blog/readers-from-rss-2-blog.php:74:
+plugins/readers-from-rss-2-blog/readers-from-rss-2-blog.php:87:
+plugins/xerte-online/xerterssfeed.php:23:
+plugins/custom-categories-rss/custom-categories-rss.php:93:

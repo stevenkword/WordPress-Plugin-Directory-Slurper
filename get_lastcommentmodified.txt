@@ -1,0 +1,12 @@
+plugins/kau-boys-comment-notification/feed-rss2-comments.php:30:
+plugins/rssjs/feed-rssjs-comments.php:26:$json->rss->channel->lastBuildDate = mysql2date( 'D, d M Y H:i:s +0000', get_lastcommentmodified( 'GMT' ), false );
+plugins/rss-feed-modify-on-your-choice/feedfile/feed-rss2-comments.php:31:
+plugins/rss-feed-modify-on-your-choice/feedfile/feed-atom-comments.php:27:
+plugins/presstest/mocked/core.php:2998:if( !function_exists( 'get_lastcommentmodified' ) ) { function get_lastcommentmodified($timezone = '') { return PT_Mime::mime( func_get_args() );  } }
+plugins/digressit/extensions/feeds/user-comments-feed.php:53:
+plugins/digressit/extensions/feeds/paragraph-comments-feed.php:31:
+plugins/digressit/extensions/feeds/paragraph-level-feed.php:24:
+plugins/digressit/themes/digressit-default/author-feed.php:29:
+plugins/swfamf/amf/Wordpress.php:196:
+plugins/thermal-api/api/v1/controllers/Comments.php:24:
+plugins/thermal-api/api/v1/API.php:68:
